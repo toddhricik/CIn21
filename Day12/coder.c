@@ -28,7 +28,7 @@ int main(int argc, char *argv[]){
 	else
 	if((argv[2][0] == 'D') || (argv[2][0] == 'd')){
 		fh = fopen(argv[1], "r");										/* open a file to read */
-		if(fh <= 0){													/* make sure a file opened */
+		if(fh != nullptr){												/* make sure a file opened */
 			printf("\n\nError opening file...\n");
 			rv = -2;
 		}
