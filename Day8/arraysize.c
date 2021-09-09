@@ -1,3 +1,4 @@
+
 /* Demonstrates the sizeof() operator */
 
 #include <stdio.h>
