@@ -1,6 +1,7 @@
 // Listing 19.3 - Using the assert() macro
 #include <stdio.h>
 #include <assert.h>
+
 int main(void)
 {
 	int x;
